@@ -98,4 +98,41 @@ GitHub, GitLab, Notion 같은 서비스에서 자동으로 예쁘게 변환됨
 
 👉 쉽게 말해 “써보니 어땠는가”
 
-test
+1️⃣ 웹/보안 분야: Content Security Policy (CSP)
+
+정의: 웹 페이지에서 어떤 리소스(스크립트, 이미지, 스타일 등)를 허용할지 브라우저에 알려주는 보안 정책
+
+목적: XSS(교차 사이트 스크립팅) 공격, 데이터 인젝션 방지
+
+예시:
+
+Content-Security-Policy: default-src 'self'; img-src https://example.com; script-src 'self' https://cdn.example.com
+
+
+설명:
+
+default-src 'self' → 기본 리소스는 자기 서버만 허용
+
+img-src https://example.com → 이미지는 example.com에서만 불러오기
+
+script-src ... → 스크립트는 자기 서버와 CDN만 허용
+
+2️⃣ 통신/전력 분야: Cloud Service Provider
+
+정의: 클라우드 서비스를 제공하는 회사(예: AWS, Azure, GCP)
+
+역할: 서버, 스토리지, DB, 네트워크, 보안 서비스 제공
+
+3️⃣ 보안 인증: Cryptographic Service Provider
+
+정의: 암호화 서비스(키 생성, 인증서 관리 등)를 제공하는 소프트웨어/모듈
+
+사용 예: Windows에서 인증서 기반 암호화, 디지털 서명
+
+💡 요약
+
+웹 개발 관련이면 → Content Security Policy
+
+클라우드 관련이면 → Cloud Service Provider
+
+암호화/보안 관련이면 → Cryptographic Service Provider
