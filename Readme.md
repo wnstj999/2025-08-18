@@ -1,5 +1,6 @@
 # 오늘 학습
 
+하루치 용어 정리- 2025-08-18
 📡 GNB vs LNB 정리
 1. GNB (gNB, Next Generation NodeB)
 
