@@ -1,4 +1,4 @@
-# 오늘 학습 test
+# 오늘 학습 abcd
 
 📡 GNB vs LNB 정리
 1. GNB (gNB, Next Generation NodeB)
