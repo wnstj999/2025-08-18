@@ -1,4 +1,4 @@
-# 오늘 학습 최종단
+# 오늘 학습 최종단최최
 
 📡 GNB vs LNB 정리
 1. GNB (gNB, Next Generation NodeB)
