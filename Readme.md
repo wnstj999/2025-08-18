@@ -136,3 +136,60 @@ script-src ... → 스크립트는 자기 서버와 CDN만 허용
 클라우드 관련이면 → Cloud Service Provider
 
 암호화/보안 관련이면 → Cryptographic Service Provider
+
+Workspace (워크스페이스)란?
+
+의미: 개발자가 작업하는 프로젝트 작업 공간
+
+VS Code에서는 폴더, 설정, 확장, 터미널 환경 등을 하나로 묶어서 관리하는 단위예요.
+
+쉽게 말하면 **“이 프로젝트만을 위한 VS Code 환경”**이라고 생각하면 됩니다.
+
+종류
+1️⃣ 폴더 워크스페이스 (Folder Workspace)
+
+특징: 단일 폴더를 열어서 작업
+
+.vscode 폴더 안에 프로젝트 설정 저장
+
+장점: 설정이 단순하고 바로 사용 가능
+
+사용 예: 작은 프로젝트, 단일 폴더 작업
+
+2️⃣ 멀티 루트 워크스페이스 (Multi-root Workspace)
+
+특징: 여러 폴더를 하나로 묶어서 관리
+
+.code-workspace 파일로 워크스페이스 설정 저장
+
+장점: 여러 프로젝트를 한 VS Code 창에서 관리 가능
+
+사용 예: 프론트엔드/백엔드가 다른 폴더일 때
+
+설정 방법
+
+폴더 워크스페이스:
+
+폴더 열기 → 자동으로 워크스페이스 생성
+
+.vscode/settings.json에 프로젝트별 설정 저장
+
+멀티 루트 워크스페이스:
+
+File > Add Folder to Workspace → 여러 폴더 추가
+
+File > Save Workspace As… → .code-workspace 파일로 저장
+
+VS Code에서 확인/전환
+
+왼쪽 상단 폴더 이름 → 현재 워크스페이스 확인 가능
+
+File > Open Workspace… → 다른 워크스페이스 열기
+
+💡 핵심 요약:
+
+워크스페이스 = 프로젝트 작업 공간
+
+폴더 워크스페이스 = 단일 프로젝트
+
+멀티 루트 워크스페이스 = 여러 프로젝트를 한 번에 관리
