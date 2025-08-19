@@ -1,0 +1,86 @@
+📑 공부 정리 요약본
+📡 GNB vs LNB
+
+GNB (5G 기지국)
+
+5G NR 기지국 (4G의 eNB에 해당)
+
+구성: CU(중앙처리) / DU(저지연 사용자처리) / RU(RF 송수신)
+
+기능: RRC, 스케줄링, 핸드오버, 데이터 송수신
+➡️ UE ↔ 5G Core 연결하는 5G 기지국
+
+LNB (위성용 수신기)
+
+위성 안테나에 붙는 장치
+
+고주파 신호 수신 → 저잡음 증폭 + 주파수 변환(IF)
+➡️ 위성 신호를 케이블로 전달 가능한 형태로 변환
+
+📄 MD (Markdown)
+
+텍스트 기반 문서 포맷 (.md)
+
+특수문자 문법으로 서식 지정 (#, *, - 등)
+
+장점: 가볍고, GitHub/Notion 등에서 자동 렌더링
+➡️ README, 가이드 문서에 필수
+
+🎨 UI vs UX
+
+UI (User Interface)
+
+사용자가 조작하는 화면/요소 (버튼, 색상, 레이아웃)
+
+초점: 겉모습·조작법
+
+UX (User Experience)
+
+사용 경험 전반 (편리성, 직관성, 만족감, 속도, 접근성)
+
+초점: 느낌·만족도
+
+🔐 CSP (CSP의 3가지 의미)
+
+Content Security Policy → 웹 보안 정책 (XSS 방지)
+예: default-src 'self'; img-src example.com
+
+Cloud Service Provider → AWS, Azure, GCP 등 클라우드 업체
+
+Cryptographic Service Provider → 암호화 서비스 모듈 (키, 인증서 관리)
+
+➡️ 맥락에 따라 다름!
+
+🛠️ Workspace (VS Code)
+
+의미: 특정 프로젝트를 위한 개발 작업 공간
+
+1) Folder Workspace
+
+단일 폴더 기준
+
+설정: .vscode/settings.json
+
+장점: 단순, 빠른 시작
+
+2) Multi-root Workspace
+
+여러 폴더를 묶어 관리
+
+설정: .code-workspace 파일
+
+장점: 프론트/백 같이 관리 가능
+
+➡️ 폴더 = 작은 프로젝트, 멀티루트 = 큰 프로젝트
+
+✅ 전체 핵심 정리
+
+GNB: 5G 기지국 / LNB: 위성 수신 변환기
+
+MD: 텍스트 기반 문서 포맷
+
+UI vs UX: 겉모습 vs 경험
+
+CSP: 보안정책 / 클라우드 / 암호화 → 문맥에 따라 다름
+
+Workspace: VS Code 프로젝트 단위 (폴더 vs 멀티루트)
